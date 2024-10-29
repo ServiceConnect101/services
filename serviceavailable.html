@@ -9,14 +9,14 @@
     </head>
     <body  background="background4SC.jpg" height="100%" width="100%">
         <table height="100%" width="100%" cellspacing="0" cellpadding="6" border="0">
-            <tr height="50" align="center" bgcolor=""  >
+            <tr height="50" align="center" >
                 <td colspan="4"><h1 ><font color="teal" font-family="helvetica" size="7">S</font>ervice<font color="teal" font-family="helvetica" size="7">C</font>onnect</h1></td>
             </tr>
-            <tr align="center" bgcolor="teal">   
-                    <td colspan=""><a href="./homepage.html" title="Services provided"><button class="tab">Services Accessible</button></a></td>
-                    <td colspan=""><a href="./serviceavailable.html" title="Services ready to be Provided"><button class="tab">Services Available</button></a></td>
-                    <td colspan=""><a href="./contactUs.html" title="Reach Us"><button class="tab">&nbsp;&nbsp;&nbsp;Contact Us&nbsp;&nbsp;&nbsp;</button></a></td>
-                    <td colspan=""><a href="./AboutUs.html" title="Our goal and purpose for ServiceConnect"><button class="tab">&nbsp;&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;&nbsp;</button></a></td>
+            <tr bgcolor="teal">   
+                    <td colspan=""><a href="./homepage" title="Services provided"><button class="tab">Services Accessible</button></a></td>
+                    <td colspan=""><a href="./serviceavailable" title="Services ready to be Provided"><button class="tab">Services Available</button></a></td>
+                    <td colspan=""><a href="./contactUs" title="Reach Us"><button class="tab">&nbsp;&nbsp;&nbsp;Contact Us&nbsp;&nbsp;&nbsp;</button></a></td>
+                    <td colspan=""><a href="./AboutUs" title="Our goal and purpose for ServiceConnect"><button class="tab">&nbsp;&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;&nbsp;</button></a></td>
              </tr>
         <table height="100%" width="100%" cellspacing="0" cellpadding="6" border="0">
             <tr height="100%" border="1">
@@ -230,7 +230,6 @@
   
     table{
         overflow-x: auto;
-      
         border-collapse: collapse;
        max-width: em;
     }
@@ -238,10 +237,9 @@
   
     button.tab{
         font-size: 12px;
-        font-weight: bold;
         width: 90px;
         background: white;
-        border: 2px;
+        border-radius: round;
     }
 
     button{
@@ -251,7 +249,7 @@
          
          button.tab:hover{
              font-weight: bold;
-             font-size: 15px;
+            background: gray;
          }
          
         h1{
