@@ -11,7 +11,7 @@
     <table height="100%" width="100%" cellspacing="0" cellpadding="6" border="0" > 
         <tr height="100%" >
           
-                <tr bgcolor="" border="0">
+                <tr>
                     <td align="center">
                         <h1><font size="50" color="teal" style="helvetica, arial, times" >S</font>ervice<font size="50" color="teal" style="helvetica, arial, times">C</font>onnect</h1></td>
                 </tr> 
@@ -258,11 +258,11 @@
                                <input type="file" value="MAX_FILE_SIZE" name="WorkFile" id="WorkFile"/><br/><br/><em>flex previous work (Image/pdf)</em><br/>
                             <input type="file" value="MAX_FILE_SIZE" name="VideoFile" id="VideoFile"/><br/><br/><em>flex a video of your work</em><br/>
                              <input type="file" value="MAX_FILE_SIZE" name="VideoFile" id="VideoFile"/><br/><br/><em>flex a video of your work</em><br/>
-                              <input type="file" value="MAX_FILE_SIZE" name="VideoFile" id="VideoFile"/><br/><br/><em>flex a video of your work</em><br/><br/><br/>
+                              <input type="file" value="MAX_FILE_SIZE" name="VideoFile" id="VideoFile"/><br/><br/><em>flex a video of your work</em>--><br/><br/><br/>
                              <div class="submit">
                               <button type="Submit" value="Submit" name="Submit">Submit</button><a href="./we'llgetbacktoyou">Continue</a>
                               </div>
-                              </div>-->
+                              </div>
                            </form> 
                         </td>
                     </tr>
@@ -302,11 +302,12 @@
       box-shadow: 12px;
       text-align: center;
       border-collapse: collapse;
+      border: 1;
          }
          
          button:hover{
              font-weight: bold;
-             background: teal;
+             background: gray;
              border: round;
          }
 
@@ -329,6 +330,10 @@
         color: teal;
         text-decoration: bolder;
         font-size: 21px;
+    }
+    
+    a:visited{
+        color: gray;
     }
     
     div.submit{
